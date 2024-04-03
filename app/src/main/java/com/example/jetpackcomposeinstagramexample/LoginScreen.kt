@@ -55,7 +55,7 @@ fun Body(modifier: Modifier) {
     var password by rememberSaveable {
         mutableStateOf("")
     }
-    var isLoginEnable by rememberSaveable {
+    val isLoginEnable by rememberSaveable {
         mutableStateOf(false)
     }
     Column(modifier = modifier) {
