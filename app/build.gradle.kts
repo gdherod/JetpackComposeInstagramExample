@@ -68,4 +68,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     // Icons
     implementation (libs.androidx.material.icons.extended)
+    // Livedata
+    implementation(libs.androidx.runtime.livedata)
 }
