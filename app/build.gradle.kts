@@ -70,4 +70,9 @@ dependencies {
     implementation (libs.androidx.material.icons.extended)
     // Livedata
     implementation(libs.androidx.runtime.livedata)
+    // Retrofit
+    implementation(libs.retrofit)
+    // Gson
+    implementation(libs.converter.gson)
+
 }
